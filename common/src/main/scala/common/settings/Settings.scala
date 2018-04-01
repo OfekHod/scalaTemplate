@@ -1,4 +1,4 @@
-package scalaTemplate.settings
+package common.settings
 
 import com.typesafe.config.Config
 import org.apache.log4j.Logger

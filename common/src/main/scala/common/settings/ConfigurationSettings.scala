@@ -1,4 +1,4 @@
-package scalaTemplate.settings
+package common.settings
 
 import com.typesafe.config.ConfigFactory
 import scala.collection.mutable.ListBuffer
@@ -13,7 +13,7 @@ import org.apache.log4j.Logger
   */
 object ConfigurationSettings {
   private val config = ConfigFactory.load()
-  private val pathPrefix = "pennywise"
+  private val pathPrefix = "common"
   private val logger = Logger.getLogger(this.getClass)
 
   private val productNames = new ListBuffer[String]()

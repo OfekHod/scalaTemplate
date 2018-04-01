@@ -1,6 +1,6 @@
-package scalaTemplate.math
+package common.math
 
-import scalaTemplate.settings.CalculatorSettings
+import common.settings.CalculatorSettings
 
 object Calculator {
 

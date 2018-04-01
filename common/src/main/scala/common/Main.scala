@@ -1,7 +1,7 @@
-package scalaTemplate
+package common
 
-import scalaTemplate.math.Calculator
-import scalaTemplate.settings.{ConfigurationSettings}
+import common.math.Calculator
+import common.settings.ConfigurationSettings
 import org.apache.log4j.Logger
 
 
@@ -11,11 +11,10 @@ object Main {
     ConfigurationSettings.initialize()
 
     val logger = Logger.getLogger(this.getClass)
-    logger.info("Pennywise program has been started.")
+    logger.info("Common program has been started.")
 
     println(Calculator.sum(5, 7, ConfigurationSettings.calculator))
 
-    logger.info("Pennywise program has been finished.")
+    logger.info("Common program has been finished.")
   }
-
 }
