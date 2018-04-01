@@ -16,6 +16,3 @@ dependencies {
     testCompile group: 'org.scalatest', name: 'scalatest_2.12', version: '3.2.0-SNAP10'
     testRuntime 'org.pegdown:pegdown:1.4.2'
 }
-
-
-
