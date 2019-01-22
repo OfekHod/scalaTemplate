@@ -14,10 +14,10 @@ Open cmd at repository's folder and run the following commands:
 ## Extras
 ### Change Project Name (via Intellij Idea)
 In order to safely change project's name:
-1. File -> Save as Directory-Based format
+1. Change settings.gradle rootProject.name to new name
 2. Exit Intellij Idea
-3. `gradlew cleanIdea`
-4. Exit every opened context of project's folder (including current cmd).
-5. Change main folder name to new name.
+3. `gradlew clean cleanIdea`
+4. Exit every opened context of project's folder (including current cmd)
+5. Change main folder name to new name
 6. `gradle idea`
 7. `gradle build`
