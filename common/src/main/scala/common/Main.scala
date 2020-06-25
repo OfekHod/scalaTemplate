@@ -4,6 +4,7 @@ import common.math.Calculator
 import common.settings.ConfigurationSettings
 import org.apache.log4j.Logger
 
+import lib.Lib
 
 object Main {
   def main(args: Array[String]): Unit = {
@@ -13,7 +14,7 @@ object Main {
     val logger = Logger.getLogger(this.getClass)
     logger.info("Common program has been started.")
 
-    println(Calculator.sum(5, 7, ConfigurationSettings.calculator))
+    logger.info(Calculator.sum(5, 7, ConfigurationSettings.calculator))
 
     logger.info("Common program has been finished.")
   }
